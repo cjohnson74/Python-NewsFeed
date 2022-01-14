@@ -5,6 +5,8 @@ I use Python to refactor an existing application that was originally built using
 
 Python is one of the most widely used high-level programming languages, with the [TIOBE](https://www.tiobe.com/tiobe-index/) index naming it the second most popular language out of 100 in 2020. It's an interpreted, high-level, open-source, general-purpose programming language that supports procedural, object-oriented, and some functional programming constructs. Created by Guido van Rossum between 1985 and 1990, Python is currently used in such fields as web development, data science, and DevOps.  
 
+![Screen Shot 2022-01-14 at 1 17 13 PM](https://user-images.githubusercontent.com/52815609/149565520-226a9f4a-9741-496d-9861-7b7e163380f2.png)
+
 Python has seen an increase in popularity with the rise of big data—in which extremely large datasets are analyzed computationally to reveal patterns, trends, and associations, especially relating to human behavior and interactions. Python can help us mine big data much faster than any other programming language because it can handle any data type.
 
 Python can also be easily integrated into web applications that need to implement machine learning. Machine learning is a quickly growing branch of artificial intelligence that's based on the idea that systems can learn from data, identify patterns, and make decisions with minimal human intervention.  
