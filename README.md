@@ -4,17 +4,17 @@ I use Python to refactor an existing application that was originally built using
 ## I Learned How to Do The Following:
 
 - Build and deploy to the cloud a Flask API with correct project structure and necessary dependencies.
-- 
+
 - Connect the application to an RDBMS database using SQL Alchemy to support the API model.
-- 
+
 - Create a REST API that performs CRUD operations.
-- 
+
 - Set up and configure a local virtual environment for Python Flask.
-- 
+
 - Explain the differences between JavaScript and Python.
-- 
+
 - Add templating to the application to allow for user interactions.
-- 
+
 - Perform basic DevOps and deploy to a cloud infrastructure.
 
 ## So why did I use Python when the same app can be built with Node?
