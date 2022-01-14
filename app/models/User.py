@@ -1,4 +1,3 @@
-from tkinter import N
 from app.db import Base
 from sqlalchemy import Column, Integer, String
 
