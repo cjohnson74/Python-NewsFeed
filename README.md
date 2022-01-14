@@ -9,6 +9,6 @@ Python has seen an increase in popularity with the rise of big data—in which e
 
 Python can also be easily integrated into web applications that need to implement machine learning. Machine learning is a quickly growing branch of artificial intelligence that's based on the idea that systems can learn from data, identify patterns, and make decisions with minimal human intervention.  
 
-Just like most other popular programming languages, Python has several frameworks that can make it easier to use. The two most popular Python frameworks are (Flask)[https://flask.palletsprojects.com/en/2.0.x/] and (Django)[https://www.djangoproject.com/]. You’ll use Flask in this course, but you can adapt the same concepts to a Django application.
+Just like most other popular programming languages, Python has several frameworks that can make it easier to use. The two most popular Python frameworks are [Flask](https://flask.palletsprojects.com/en/2.0.x/) and [Django](https://www.djangoproject.com/). You’ll use Flask in this course, but you can adapt the same concepts to a Django application.
 
 To complete the refactoring, I connected the Just Tech News application to a relational database using SQLAlchemy, provide user authentication using Flask’s built-in session functionality, and deploy my app to the cloud using Heroku.
