@@ -1,1 +1,1 @@
-from .home import home
+from .home import bp as home
