@@ -1,6 +1,22 @@
 # Tech-News-Python-Refactor
 I use Python to refactor an existing application that was originally built using Node.js. The app, called Just Tech News, is a website where users can post, upvote, and comment on links to news articles. Instead of using Node.js as the back-end language and Handlebars.js as the templating engine, I used Python to create the app and the Python Flask framework to create the application’s views.
 
+## I Learned How to Do The Following:
+
+- Build and deploy to the cloud a Flask API with correct project structure and necessary dependencies.
+- 
+- Connect the application to an RDBMS database using SQL Alchemy to support the API model.
+- 
+- Create a REST API that performs CRUD operations.
+- 
+- Set up and configure a local virtual environment for Python Flask.
+- 
+- Explain the differences between JavaScript and Python.
+- 
+- Add templating to the application to allow for user interactions.
+- 
+- Perform basic DevOps and deploy to a cloud infrastructure.
+
 ## So why did I use Python when the same app can be built with Node?
 
 Python is one of the most widely used high-level programming languages, with the [TIOBE](https://www.tiobe.com/tiobe-index/) index naming it the second most popular language out of 100 in 2020. It's an interpreted, high-level, open-source, general-purpose programming language that supports procedural, object-oriented, and some functional programming constructs. Created by Guido van Rossum between 1985 and 1990, Python is currently used in such fields as web development, data science, and DevOps.  
