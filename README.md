@@ -3,7 +3,7 @@ I use Python to refactor an existing application that was originally built using
 
 ## So why did I use Python when the same app can be built with Node?
 
-Python is one of the most widely used high-level programming languages, with the (TIOBE)[https://www.tiobe.com/tiobe-index/] index naming it the second most popular language out of 100 in 2020. It's an interpreted, high-level, open-source, general-purpose programming language that supports procedural, object-oriented, and some functional programming constructs. Created by Guido van Rossum between 1985 and 1990, Python is currently used in such fields as web development, data science, and DevOps.  
+Python is one of the most widely used high-level programming languages, with the [TIOBE](https://www.tiobe.com/tiobe-index/) index naming it the second most popular language out of 100 in 2020. It's an interpreted, high-level, open-source, general-purpose programming language that supports procedural, object-oriented, and some functional programming constructs. Created by Guido van Rossum between 1985 and 1990, Python is currently used in such fields as web development, data science, and DevOps.  
 
 Python has seen an increase in popularity with the rise of big data—in which extremely large datasets are analyzed computationally to reveal patterns, trends, and associations, especially relating to human behavior and interactions. Python can help us mine big data much faster than any other programming language because it can handle any data type.
 
