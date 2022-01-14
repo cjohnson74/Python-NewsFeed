@@ -17,6 +17,23 @@ I use Python to refactor an existing application that was originally built using
 
 - Perform basic DevOps and deploy to a cloud infrastructure.
 
+## Tools I Used:
+
+- [Python](https://www.python.org/)
+- pip
+  - [Python Package Index (PyPI)](https://pypi.org/)
+- [Flask](https://palletsprojects.com/p/flask/)
+  - [Flask PyPI Package](https://pypi.org/project/Flask/)
+- [SQLAlchemy](https://www.sqlalchemy.org/)
+  - [SQLAlchemy PyPI Package](https://pypi.org/project/SQLAlchemy/)
+- [PyMySQL](https://pymysql.readthedocs.io/en/latest/)
+  - [PyMySQL PyPI Package](https://pypi.org/project/PyMySQL/)
+- [bcrypt](https://pypi.org/project/bcrypt/)
+  - [Cryptography PyPl Package](https://pypi.org/project/cryptography/)
+- [python-dotenv](https://pypi.org/project/python-dotenv/)
+- [Gunicorn (Green Unicorn)](https://docs.gunicorn.org/en/stable/)
+  - [Gunicorn PyPL Package](https://pypi.org/project/gunicorn/)
+
 ## So why did I use Python when the same app can be built with Node?
 
 Python is one of the most widely used high-level programming languages, with the [TIOBE](https://www.tiobe.com/tiobe-index/) index naming it the second most popular language out of 100 in 2020. It's an interpreted, high-level, open-source, general-purpose programming language that supports procedural, object-oriented, and some functional programming constructs. Created by Guido van Rossum between 1985 and 1990, Python is currently used in such fields as web development, data science, and DevOps.  
