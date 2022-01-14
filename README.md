@@ -19,20 +19,20 @@ I use Python to refactor an existing application that was originally built using
 
 ## Tools I Used:
 
-- [Python](https://www.python.org/)
-- pip
-  - [Python Package Index (PyPI)](https://pypi.org/)
-- [Flask](https://palletsprojects.com/p/flask/)
-  - [Flask PyPI Package](https://pypi.org/project/Flask/)
-- [SQLAlchemy](https://www.sqlalchemy.org/)
-  - [SQLAlchemy PyPI Package](https://pypi.org/project/SQLAlchemy/)
-- [PyMySQL](https://pymysql.readthedocs.io/en/latest/)
-  - [PyMySQL PyPI Package](https://pypi.org/project/PyMySQL/)
-- [bcrypt](https://pypi.org/project/bcrypt/)
-  - [Cryptography PyPl Package](https://pypi.org/project/cryptography/)
-- [python-dotenv](https://pypi.org/project/python-dotenv/)
-- [Gunicorn (Green Unicorn)](https://docs.gunicorn.org/en/stable/)
-  - [Gunicorn PyPL Package](https://pypi.org/project/gunicorn/)
+- [Python](https://www.python.org/) is an interpreted, high-level, open-source, general-purpose programming language that supports procedural, object-oriented, and some functional programming constructs.
+- pip is the default package manager for Python. It is distributed with Python, which means that when you install Python, pip is automatically installed on your computer!
+  - [Python Package Index (PyPI)](https://pypi.org/), a repository of software for the Python programming language, to your Python applications.
+- [Flask](https://palletsprojects.com/p/flask/) is a lightweight web application framework written in Python. It's designed to make getting started quick and easy, with the ability to scale up to complex applications. It has become one of the most popular Python web application frameworks.
+  - [Flask PyPI Package](https://pypi.org/project/Flask/), was used for the purposes of this project.
+- [SQLAlchemy](https://www.sqlalchemy.org/) is the Python SQL toolkit and object-relational mapper that gives Python developers the full power and flexibility of SQL. It provides a full suite of well known enterprise-level persistence patterns, designed for efficient and high-performing database access, adapted into a simple and Pythonic domain language.
+  - [SQLAlchemy PyPI Package](https://pypi.org/project/SQLAlchemy/), was used for the purposes of this project.
+- [PyMySQL](https://pymysql.readthedocs.io/en/latest/) is a pure Python MySQL driver that connects a Python application to a MySQL database.
+  - [PyMySQL PyPI Package](https://pypi.org/project/PyMySQL/), was used for the purposes of this project.
+- [bcrypt](https://pypi.org/project/bcrypt/) is a PyPI library for Python that allows you to hash passwords. Hashing is the process of taking input and using a mathematical formula to chop and mix it up to produce an output of a specific length. Hashing is a one-way function, meaning that it can easily convert input to a fixed-size output, but it is difficult to invert, or convert in the opposite direction. This attribute allows developers to secure passwords when authenticating users for their applications.
+  - [Cryptography PyPl Package](https://pypi.org/project/cryptography/) is a dependency of ``bcrypt`` that I needed to install in order to use it in my application.
+- [python-dotenv](https://pypi.org/project/python-dotenv/) is a PyPI dotenv package used to manage environment variables inside Python's native virtual environment, or ``venv``. This virtual environment is a self-contained directory that can maintain its own version of Python as well as its own library dependencies so that multiple Python projects can reside on the same machine without interfering with each other.
+- [Gunicorn](https://docs.gunicorn.org/en/stable/), or Green Unicorn, is a Python HTTP Server for UNIX that is broadly compatible with various web frameworks (including Python and Flask), simply implemented, light on server resources, and fast.
+  - [Gunicorn PyPL Package](https://pypi.org/project/gunicorn/), was used for the purposes of this project.
 
 ## So why did I use Python when the same app can be built with Node?
 
