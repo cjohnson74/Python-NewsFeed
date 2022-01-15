@@ -23,4 +23,5 @@ class User(Base):
     def validate_password(self, key, password):
         assert len(password) > 4
 
-        return password
+        # encrypt password
+        return bcrypt.hashpw(password.encode('utf-8'), salt)
