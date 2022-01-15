@@ -16,7 +16,10 @@ def index():
         .all()
     )
 
-    return render_template('homepage.html')
+    return render_template(
+        'homepage.html',
+        posts=posts
+    )
 
 
 @bp.route('/login')
