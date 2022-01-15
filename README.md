@@ -32,7 +32,7 @@ I use Python to refactor an existing application that was originally built using
   - [Cryptography PyPl Package](https://pypi.org/project/cryptography/) is a dependency of ``bcrypt`` that I needed to install in order to use it in my application.
 - [python-dotenv](https://pypi.org/project/python-dotenv/) is a PyPI dotenv package used to manage environment variables inside Python's native virtual environment, or ``venv``. This virtual environment is a self-contained directory that can maintain its own version of Python as well as its own library dependencies so that multiple Python projects can reside on the same machine without interfering with each other.
 - [Gunicorn](https://docs.gunicorn.org/en/stable/), or Green Unicorn, is a Python HTTP Server for UNIX that is broadly compatible with various web frameworks (including Python and Flask), simply implemented, light on server resources, and fast.
-  - [Gunicorn PyPL Package](https://pypi.org/project/gunicorn/), was used for the purposes of this project.
+  - [Gunicorn PyPI Package](https://pypi.org/project/gunicorn/), was used for the purposes of this project.
 
 ## So why did I use Python when the same app can be built with Node?
 
