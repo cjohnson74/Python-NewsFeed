@@ -2,7 +2,7 @@ from datetime import datetime
 from email.policy import default
 from app.db import Base
 from sqlalchemy import Column, Integer, String, ForeignKey, DateTime
-from sqlalchemy.orm import relationship
+from sqlalchemy.orm import relationship, column_property
 
 class Post(Base):
     __tablename__ = 'posts'
