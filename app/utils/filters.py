@@ -15,3 +15,5 @@ from datetime import datetime
 print(format_date(datetime.now()))
 print(format_url('http://google.com/test/')) # expected output: google.com
 print(format_url('https://www.google.com?q=test')) # expected output: google.com
+print(format_plural(2, 'cat')) # expected output: cats
+print(format_plural(1, 'dog')) # expected output: dog
