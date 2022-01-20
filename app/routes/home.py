@@ -18,7 +18,8 @@ def index():
 
     return render_template(
         'homepage.html',
-        posts=posts
+        posts=posts,
+        loggedIn=session.get('loggedIn')
     )
 
 
