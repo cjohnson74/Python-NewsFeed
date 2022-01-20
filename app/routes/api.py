@@ -60,7 +60,7 @@ def login():
 
     session.clear()
     session['user_id'] = user.id
-    session['loggedInd'] = True
+    session['loggedIn'] = True
     return jsonify(id = user.id)
 
 @bp.route('/comments', methods=['POST'])
