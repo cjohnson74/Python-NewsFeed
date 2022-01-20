@@ -62,3 +62,8 @@ def login():
     session['user_id'] = user.id
     session['loggedInd'] = True
     return jsonify(id = user.id)
+
+@bp.route('/comments', methods=['POST'])
+def comment():
+    data = request.get_json()
+    db = get_db()
