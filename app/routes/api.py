@@ -7,6 +7,7 @@ bp = Blueprint('api', __name__, url_prefix='/api')
 @bp.route('/users', methods=['POST'])
 def signup():
     data = request.get_json()
+    db = get_db()
 
     # create a new user
     newUser = User(
