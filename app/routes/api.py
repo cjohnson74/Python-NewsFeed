@@ -57,3 +57,8 @@ def login():
 
     if user.verify_password(data['password']) == False:
         return jsonify(message = 'Incorrect credentials'), 400
+
+    session.clear()
+    session['user_id'] = user.id
+    session['loggedInd'] = True
+    return jsonify(id = user.id)
