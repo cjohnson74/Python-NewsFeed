@@ -22,6 +22,7 @@ def signup():
         # save in database
         db.add(newUser)
         db.commit()
+        print('success!')
     except:
         # insert failed, so send error to front end
         print(sys.exc_info()[0])
