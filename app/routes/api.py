@@ -67,3 +67,19 @@ def login():
 def comment():
     data = request.get_json()
     db = get_db()
+
+    try:
+        # create a new comment
+        newComment = Comment(
+            comment_text = data['comment_text'],
+            post_id = data['post_id'],
+            user_id = session.get('user_id')
+        )
+
+        db.add(newComment)
+        db.commit()
+    except:
+        print(sys.exc_info()[0])
+
+        db.rollback()
+        return jsonify(message = 'Comment failed'), 500
