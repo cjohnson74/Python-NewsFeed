@@ -41,5 +41,6 @@ def single(id):
 
     return render_template(
         'single-post.html',
-        post=post
+        post=post,
+        loggedIn=session.get('loggedIn')
     )
