@@ -42,3 +42,8 @@ def logout():
     # remove session variables
     session.clear()
     return '', 204
+
+@bp.route('/users/login', methods=['POST'])
+def login():
+    data = request.get_json()
+    db = get_db()
