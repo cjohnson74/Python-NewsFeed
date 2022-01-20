@@ -47,3 +47,10 @@ def logout():
 def login():
     data = request.get_json()
     db = get_db()
+
+    try:
+        user = db.query(User).filter(User.email == data['email']).one()
+    except:
+        print(sys.exc_info()[0])
+
+    return jsonify(message = 'Incorrect credentials'), 400
