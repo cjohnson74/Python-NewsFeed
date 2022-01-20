@@ -94,7 +94,7 @@ def upvote():
     try:
         # create a new vote with incoming id and session id
         newVote = Vote(
-            post_id = data['post_id']
+            post_id = data['post_id'],
             user_id = session.get('user_id')
         )
 
