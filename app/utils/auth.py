@@ -4,7 +4,10 @@ from functools import wraps
 def login_required(func):
     @wraps(func)
     def wrapped_function(*args, **kwargs):
-        print('wrapper')
-        return func(*args, **kwargs)
+        # if logged in, call function with original arguments
+        if session.get('loggedIn') == True:
+            return func(*args, **kwargs)
+
+        return redirect('/login')
 
     return wrapped_function
