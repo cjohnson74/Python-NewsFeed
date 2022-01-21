@@ -136,11 +136,20 @@ def update(id):
     data = request.get_json()
     db = get_db()
 
-    post = (
-        db
-        .query(Post)
-        .filter(Post.id == id)
-        .one()
-    )
-    post.title = data['title']
-    db.commit()
+    try:
+        # retrieve post and update title property
+        post = (
+            db
+            .query(Post)
+            .filter(Post.id == id)
+            .one()
+        )
+        post.title = data['title']
+        db.commit()
+    except:
+        print(sys.exc_info()[0])
+
+        db.rollback()
+        return jsonify(message = 'Post not found'), 404
+
+    return '', 204
