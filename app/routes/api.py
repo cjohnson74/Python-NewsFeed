@@ -130,3 +130,8 @@ def create():
         return jsonify(message = 'Post failed'), 500
 
     return jsonify(id = newPost.id)
+
+@bp.route('/posts/<id>', methods=['PUT'])
+def update(id):
+    data = request.get_json()
+    db = get_db()
