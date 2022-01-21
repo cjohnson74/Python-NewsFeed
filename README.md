@@ -7,7 +7,7 @@ I use Python to refactor an existing application that was originally built using
    <img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white" />
 </a>
 
-### Click the link to the app above and please share some tech links you think are helpful or interesting. I took the initiative and add some Python related links to the feed! 👍🏽
+### Click the link to the app above and please share some tech links you think are helpful or interesting. I took the initiative and added some Python related links to the feed! 👍🏽
 
 ## I Learned How to Do The Following:
 
