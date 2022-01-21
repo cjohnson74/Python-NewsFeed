@@ -135,3 +135,12 @@ def create():
 def update(id):
     data = request.get_json()
     db = get_db()
+
+    post = (
+        db
+        .query(Post)
+        .filter(Post.id == id)
+        .one()
+    )
+    post.title = data['title']
+    db.commit()
