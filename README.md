@@ -7,6 +7,8 @@ I use Python to refactor an existing application that was originally built using
    <img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white" />
 </a>
 
+Click the link to the app above. I to the initiative to add some Python related links to the feed, please feel free to share your tech links.
+
 ## I Learned How to Do The Following:
 
 - Build and deploy to the cloud a Flask API with correct project structure and necessary dependencies.
