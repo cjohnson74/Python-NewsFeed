@@ -13,7 +13,11 @@ def dash():
         .order_by(Post.created_at.desc())
         .all()
     )
-    return render_template('dashboard.html')
+    return render_template(
+        'dashboard.html',
+        posts=posts,
+        loggedIn=session.get('loggedIn')
+    )
 
 
 @bp.route('/edit/<id>')
