@@ -49,3 +49,22 @@ Python can also be easily integrated into web applications that need to implemen
 Just like most other popular programming languages, Python has several frameworks that can make it easier to use. The two most popular Python frameworks are [Flask](https://flask.palletsprojects.com/en/2.0.x/) and [Django](https://www.djangoproject.com/). You’ll use Flask in this course, but you can adapt the same concepts to a Django application.
 
 To complete the refactoring, I connected the Just Tech News application to a relational database using SQLAlchemy, provide user authentication using Flask’s built-in session functionality, and deploy my app to the cloud using Heroku.
+
+# Reflection
+
+Looking back at this Tech News Feed project as a whole, I accomplished the following:
+- Set up a virtual environment for Python by using the ``venv`` module.
+- Defined functions and classes by using Python syntax.
+- Created and imported Python packages and modules.
+- Used the Flask library to create GET, POST, PUT, and DELETE routes.
+- Created MySQL tables by using the SQLAlchemy ORM.
+- Queried a database by using SQLAlchemy methods.
+- Handled errors by using ``assert`` and ``try...except`` statements.
+- Used the contextual ``g`` and ``session`` objects of Flask across routes.
+- Imported custom filter functions into Jinja templates.
+- Created custom decorator functions.
+
+## Python vs JavaScript
+Along the way, I uncovered many differences and similarities between Python and JavaScript. I have noticed that the differences are mostly syntactical? Concepts like servers, requests, templates, models, conditionals, and errors remain the same across different languages. Since I understand those concepts, I can learn any new programming language, I just have to identify a specific feature that I want to build using that language, and search online for resources that can guide me through the process.
+
+When I learn a new language, PRACTICE is crucial! To practice Python, I can build another Flask web app form scratch or look into uses like scripting or software development. Whatever I choose, now I am equipped to tackle any potential obstacles.
