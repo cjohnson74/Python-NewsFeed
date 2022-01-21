@@ -3,7 +3,9 @@ I use Python to refactor an existing application that was originally built using
 
 ## To View The Tech News Feed Flask Web App On Heroku:
 
-
+<a href="https://tech-news-feed.herokuapp.com/">
+   <img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white" />
+</a>
 
 ## I Learned How to Do The Following:
 
