@@ -1,4 +1,4 @@
-# Python Newsfeed 🗞 🐍 
+# Python Newsfeed 🗞 🐍  
 I use Python to refactor an existing application that was originally built using Node.js. The app, called Just Tech News, is a website where users can post, upvote, and comment on links to news articles. Instead of using Node.js as the back-end language and Handlebars.js as the templating engine, I used Python to create the app and the Python Flask framework to create the application’s views.
 
 ## To View The Tech News Feed Flask Web App On Heroku:
